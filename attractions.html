@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Explore Jeypore & Koraput | Hotel Sunrise Jeypore</title>
+  <meta name="description" content="Discover the best places to visit near Hotel Sunrise Jeypore, from local markets and railway stations to scenic reservoirs and ancient temples in Koraput." />
+  <link rel="canonical" href="https://hotelsunrisejeypore.com/attractions.html" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://hotelsunrisejeypore.com/attractions.html" />
+  <meta property="og:title" content="Explore Jeypore & Koraput | Local Attractions – Hotel Sunrise" />
+  <meta property="og:description" content="Discover the local wonders: Kolab Dam, Duduma Waterfalls, and ancient temples. Plan your trip with Hotel Sunrise Jeypore." />
+  <meta property="og:image" content="https://hotelsunrisejeypore.com/select.webp" />
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://hotelsunrisejeypore.com/attractions.html" />
+  <meta property="twitter:title" content="Explore Jeypore & Koraput | Local Attractions – Hotel Sunrise" />
+  <meta property="twitter:description" content="Discover the local wonders: Kolab Dam, Duduma Waterfalls, and ancient temples. Plan your trip with Hotel Sunrise Jeypore." />
+  <meta property="twitter:image" content="https://hotelsunrisejeypore.com/select.webp" />
+
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    .attractions-hero {
+      height: 60vh;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: var(--white);
+      overflow: hidden;
+    }
+    .attractions-hero img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -1;
+    }
+    .attractions-hero-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to bottom, rgba(20,15,5,0.4), rgba(20,15,5,0.7));
+      z-index: -1;
+    }
+    .attraction-section-title {
+      margin-bottom: 40px;
+      padding-bottom: 15px;
+      border-bottom: 2px solid var(--primary-orange);
+      display: inline-block;
+    }
+    .detailed-attractions-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+      gap: 32px;
+      margin-bottom: 64px;
+    }
+    .attraction-detail-card {
+      background: var(--white);
+      border-radius: var(--radius);
+      overflow: hidden;
+      box-shadow: var(--shadow-md);
+      transition: var(--transition);
+      display: flex;
+      flex-direction: column;
+    }
+    .attraction-detail-card:hover {
+      transform: translateY(-8px);
+      box-shadow: var(--shadow-lg);
+    }
+    .attraction-img-placeholder, .attraction-img-wrap {
+      height: 240px;
+      overflow: hidden;
+      background: var(--bg-beige);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 3rem;
+      color: var(--primary-orange);
+    }
+    .attraction-img-wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.5s ease;
+    }
+    .attraction-detail-card:hover .attraction-img-wrap img {
+      transform: scale(1.08);
+    }
+    .attraction-body {
+      padding: 28px;
+      flex-grow: 1;
+    }
+    .attraction-body h3 {
+      font-size: 1.4rem;
+      margin-bottom: 12px;
+      color: var(--text-dark);
+    }
+    .attraction-body p {
+      margin-bottom: 20px;
+      line-height: 1.7;
+    }
+    .attraction-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: var(--primary-orange);
+    }
+    .view-map-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--text-dark);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    .view-map-btn:hover {
+      color: var(--primary-orange);
+    }
+  </style>
+</head>
+<body>
+
+  <nav id="navbar">
+    <div class="container nav-inner">
+      <a href="index.html" class="logo">Hotel <span>Sunrise</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="rooms.html">Rooms</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="attractions.html" class="active">Explore</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#" class="nav-book-btn open-modal">Book Now</a></li>
+      </ul>
+      <button class="hamburger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+
+  <header class="attractions-hero">
+    <img src="select.webp" alt="Sightseeing near Jeypore" />
+    <div class="attractions-hero-overlay"></div>
+    <div class="container">
+      <p class="section-label" style="color:var(--white);">Local Wonders</p>
+      <h1 style="font-size:3.5rem; margin-bottom:15px;">Explore Jeypore & Koraput</h1>
+      <p style="font-size:1.2rem; opacity:0.9;">A journey through heritage, nature, and spirituality</p>
+    </div>
+  </header>
+
+  <section class="section-pad">
+    <div class="container">
+      
+      <!-- Jeypore Section -->
+      <h2 class="attraction-section-title" id="jeypore">In & Around Jeypore</h2>
+      <div class="detailed-attractions-grid">
+        
+        <div class="attraction-detail-card reveal">
+          <div class="attraction-img-wrap">
+            <img src="jeyporeimages/Local Bazaars & Markets.jpg" alt="Local Bazaars & Markets in Jeypore" loading="lazy" />
+          </div>
+          <div class="attraction-body">
+            <h3>Local Bazaars & Markets</h3>
+            <p>Experience the vibrant local life. From freshly harvested organic spices to exquisite tribal handicrafts and handloom textiles, these markets are a treasure trove.</p>
+            <div class="attraction-meta">
+              <span>📍 0.5 km away</span>
+              <a href="https://maps.app.goo.gl/dx8uhiCjthfaMUfh8" class="view-map-btn" target="_blank">View Location →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="attraction-detail-card reveal">
+          <div class="attraction-img-wrap">
+            <img src="jeyporeimages/Jeypore Park (Jagannath Sagar).webp" alt="Jeypore Park and Jagannath Sagar Lake" loading="lazy" />
+          </div>
+          <div class="attraction-body">
+            <h3>Jeypore Park (Jagannath Sagar)</h3>
+            <p>Located in the heart of the city, this peaceful park surrounds the beautiful Jagannath Sagar lake. It's the perfect spot for relaxing evening walks and enjoying the local atmosphere.</p>
+            <div class="attraction-meta">
+              <span>📍 1.0 km away</span>
+              <a href="https://maps.app.goo.gl/wKBVwQDnTiTyFiMo8" class="view-map-btn" target="_blank">View Location →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="attraction-detail-card reveal">
+          <div class="attraction-img-wrap">
+            <img src="jeyporeimages/Purunagarh Fort.webp" alt="Historical Purunagarh Fort in Jeypore" loading="lazy" />
+          </div>
+          <div class="attraction-body">
+            <h3>Purunagarh Fort</h3>
+            <p>Explore the historical ruins of the 17th-century fort of the Jeypore kingdom. An essential visit for history enthusiasts interested in ancient temples and local heritage.</p>
+            <div class="attraction-meta">
+              <span>📍 2.5 km away</span>
+              <a href="https://maps.app.goo.gl/umM3MFQmMsWGnTyC6" class="view-map-btn" target="_blank">View Location →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="attraction-detail-card reveal">
+          <div class="attraction-img-wrap">
+            <img src="jeyporeimages/hanuman.webp" alt="Hanuman Temple near Jeypore Bus Stand" loading="lazy" />
+          </div>
+          <div class="attraction-body">
+            <h3>Hanuman Temple (Bus Stand Area)</h3>
+            <p>A popular and vibrant temple dedicated to Lord Hanuman, located near the central bus stand area. Known for its peaceful spiritual atmosphere and regular evening prayers.</p>
+            <div class="attraction-meta">
+              <span>📍 0.9 km away</span>
+              <a href="https://maps.app.goo.gl/Y97rCRuJVSUCftuV6" class="view-map-btn" target="_blank">View Location →</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Koraput Section -->
+      <h2 class="attraction-section-title" id="koraput">The Wonders of Koraput</h2>
+      <div class="detailed-attractions-grid">
+        
+        <div class="attraction-detail-card reveal">
+          <div class="attraction-img-wrap">
+            <img src="koraputimages/kolab.webp" alt="Kolab Dam and Botanical Garden" loading="lazy" />
+          </div>
+          <div class="attraction-body">
+            <h3>Kolab Dam & Botanical Garden</h3>
+            <p>One of the most scenic spots near Jeypore, built on the Kolab River. Surrounded by lush hills, it's perfect for picnics, boating, and sunset views. Don't miss the botanical garden with its variety of flowers.</p>
+            <div class="attraction-meta">
+              <span>📍 5.0 km away</span>
+              <a href="https://maps.app.goo.gl/JHUKs7g9VtY88rXq5" class="view-map-btn" target="_blank">View Location →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="attraction-detail-card reveal">
+          <div class="attraction-img-wrap">
+            <img src="koraputimages/Gupteshwar Caves Temple Orissa.webp" alt="Gupteswar Cave Temple in Koraput" loading="lazy" />
+          </div>
+          <div class="attraction-body">
+            <h3>Gupteswar Cave Temple</h3>
+            <p>A famous cave temple dedicated to Lord Shiva, featuring a large natural Shiva Linga. Nestled in forested hills, it attracts thousands during Mahashivaratri and Shravan.</p>
+            <div class="attraction-meta">
+              <span>📍 55 km away</span>
+              <a href="https://maps.app.goo.gl/hPRUPz8p4syYaYFe9" class="view-map-btn" target="_blank">View Location →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="attraction-detail-card reveal">
+          <div class="attraction-img-wrap">
+            <img src="koraputimages/duduma waterfall.webp" alt="Duduma Waterfalls, Koraput" loading="lazy" />
+          </div>
+          <div class="attraction-body">
+            <h3>Duduma Waterfalls</h3>
+            <p>Standing at 175m, it's one of the highest and most powerful waterfalls in Odisha. Offers spectacular mountain views and is a haven for nature photography and trekking.</p>
+            <div class="attraction-meta">
+              <span>📍 70 km away</span>
+              <a href="https://maps.app.goo.gl/sYxzyYNHXj7m6K9MA" class="view-map-btn" target="_blank">View Location →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="attraction-detail-card reveal">
+          <div class="attraction-img-wrap">
+            <img src="koraputimages/sabar-srikhetra.webp" alt="Sabari Srikhetra Jagannath Temple, Koraput" loading="lazy" />
+          </div>
+          <div class="attraction-body">
+            <h3>Sabari Srikhetra</h3>
+            <p>Also known as the Jagannath Temple of Koraput, this spiritual sanctuary is unique for its tribal inclusivity and serene hilltop location.</p>
+            <div class="attraction-meta">
+              <span>📍 22 km away</span>
+              <a href="https://maps.app.goo.gl/t7PwLyLnzmUngLnx6" class="view-map-btn" target="_blank">View Location →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="attraction-detail-card reveal">
+          <div class="attraction-img-wrap">
+            <img src="koraputimages/Deomali.webp" alt="Deomali Peak, the highest in Odisha" loading="lazy" />
+          </div>
+          <div class="attraction-body">
+            <h3>Deomali Peak</h3>
+            <p>The highest mountain peak in Odisha. Experience amazing sunrises, foggy hills, and challenging trekking routes. Popular for camping and adventure lovers.</p>
+            <div class="attraction-meta">
+              <span>📍 45 km away</span>
+              <a href="https://maps.app.goo.gl/qnFa2SiQ4XwSwdQ7A" class="view-map-btn" target="_blank">View Location →</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section">
+    <p class="section-label">Plan Your Visit</p>
+    <h2 class="section-title">Need Help Planning Your Sightseeing?</h2>
+    <p>Our dedicated travel desk is happy to arrange local tours and transport for our guests.</p>
+    <div class="cta-btns">
+      <a href="contact.html" class="btn btn-gold">Talk to Our Travel Desk</a>
+      <a href="rooms.html" class="btn btn-outline">Back to Rooms →</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand"><div class="logo">Hotel <span>Sunrise</span></div><p>Premium luxury hotel in Jeypore, Odisha since 2009. World-class comfort and exceptional hospitality.</p></div>
+        <nav class="footer-col"><h4>Quick Links</h4><ul><li><a href="index.html">Home</a></li><li><a href="rooms.html">Rooms</a></li><li><a href="services.html">Services</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="attractions.html" class="active">Explore</a></li><li><a href="contact.html">Contact</a></li></ul></nav>
+        <nav class="footer-col"><h4>Experiences</h4><ul><li><a href="attractions.html">Sightseeing</a></li><li><a href="services.html">Banquet Events</a></li><li><a href="rooms.html">Luxury Stay</a></li></ul></nav>
+        <div class="footer-col">
+          <h4>Contact Information</h4>
+          <div class="footer-contact-item"><span>📍</span><p>Agrasen bhawan, Near, beside of tilottama press, Nehru Nagar, Jeypore, Odisha 764001</p></div>
+          <div class="footer-contact-item"><span>📞</span><p>+91 90787 06996</p></div>
+          <div class="footer-contact-item"><span>🕐</span><p>24 Hours Check-in/out</p></div>
+        </div>
+      </div>
+      <div class="footer-bottom"><p>© 2025 Hotel Sunrise Jeypore. All Rights Reserved.</p></div>
+    </div>
+  </footer>
+
+  <div class="modal-overlay" id="booking-modal">
+    <div class="modal-box">
+      <button class="modal-close">✕</button>
+      <h2>Book Your Stay</h2>
+      <form id="booking-form">
+        <div class="form-row">
+          <div class="form-group"><label>Name</label><input type="text" placeholder="Your Name" required /></div>
+          <div class="form-group"><label>Phone</label><input type="tel" placeholder="+91 90787 06996" required /></div>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width:100%; justify-content:center; margin-top:20px;">Book Now →</button>
+      </form>
+    </div>
+  </div>
+
+  <a href="https://wa.me/919078706996" class="whatsapp-btn" target="_blank">💬</a>
+  <script src="js/main.js" defer></script>
+</body>
+</html>
