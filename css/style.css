@@ -1080,23 +1080,36 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   
   .cta-contact-info { flex-direction: column; gap: 20px; }
   
+  .modal-overlay { padding: 12px; }
   .modal-box { 
-    padding: 24px 20px; 
-    margin: 15px; 
-    max-height: 90vh; 
+    padding: 20px 16px; 
+    margin: auto; 
+    max-height: 88vh; 
     overflow-y: auto; 
     border-radius: 12px;
   }
+  .modal-box h2 { font-size: 1.4rem; margin-bottom: 4px; }
+  .modal-box p { font-size: 0.8rem; margin-bottom: 16px; line-height: 1.4; }
+  .form-group { margin-bottom: 12px; }
+  .form-group label { font-size: 0.75rem; margin-bottom: 4px; }
   .form-row { grid-template-columns: 1fr; }
+  .contact-grid { gap: 24px; }
   .contact-form-card, 
-  .contact-info-card { padding: 24px 20px; }
+  .contact-info-card { padding: 20px 16px; border-radius: 12px; }
+  .contact-info-item { gap: 12px; margin-bottom: 20px; }
+  .contact-info-icon { width: 40px; height: 40px; font-size: 1rem; }
+  .contact-info-item h4 { font-size: 0.85rem; }
+  .contact-info-item p { font-size: 0.8rem; }
   .form-group input,
   .form-group select,
   .form-group textarea {
     font-size: 16px; /* Prevents iOS auto-zoom */
-    padding: 12px 14px;
+    padding: 10px 12px;
   }
   
+  .map-wrap { margin-top: 32px; border-radius: 12px; }
+  .map-wrap iframe { height: 260px; }
+
   .attraction-card { 
     padding: 24px 20px; 
     text-align: center;
