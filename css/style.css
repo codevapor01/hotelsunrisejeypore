@@ -1080,8 +1080,29 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   
   .cta-contact-info { flex-direction: column; gap: 20px; }
   
-  .modal-box { padding: 30px 20px; margin: 0 15px; }
+  .modal-box { 
+    padding: 24px 20px; 
+    margin: 15px; 
+    max-height: 90vh; 
+    overflow-y: auto; 
+    border-radius: 12px;
+  }
   .form-row { grid-template-columns: 1fr; }
+  .contact-form-card, 
+  .contact-info-card { padding: 24px 20px; }
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    font-size: 16px; /* Prevents iOS auto-zoom */
+    padding: 12px 14px;
+  }
+  
+  .attraction-card { 
+    padding: 24px 20px; 
+    text-align: center;
+  }
+  .attraction-card h3 { font-size: 1.15rem; }
+  .attraction-icon { font-size: 2rem; }
   
   .dining-banner { min-height: 400px; }
   .dining-banner-content { padding: 30px; text-align: center; }
